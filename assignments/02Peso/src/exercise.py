@@ -1,6 +1,10 @@
 def main():
     #escribe tu código abajo de esta línea
-    pass
+    pesoI = float(input("¿Cuánto pesas? "))
+    pesoF = float(input("¿Cuánto quieres pesar? "))
+    meses = float(input("¿En cuántos meses quieres bajar de peso? "))
+    pesoMes = (pesoI-pesoF)/meses
+    print("Debes bajar "+str(pesoMes)+" kilos cada mes")
 
 
 
